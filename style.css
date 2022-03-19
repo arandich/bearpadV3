@@ -203,7 +203,7 @@ header{
 
 .content-block-third div h3{
     font-size: 28px;
-    color: #f1c179;
+    color: #ffcc99;
     font-weight: 500;
     padding: 0 0 1em 0;
 }
@@ -294,7 +294,7 @@ header{
 .content-block-fourth h2{
     padding: 0;
     font-size: 24px;
-    color: #f1c179;
+    color: #ffcc99;
 }
 
 .content-block-fourth p{
@@ -315,6 +315,7 @@ header{
 
 .text-group{
     padding: 0 2em;
+    padding-bottom: 3em;
 }
 
 .image-container{
@@ -387,7 +388,7 @@ margin-right: 1.5em;
 }
 
 #block34{
-    padding: 14px 2.45em 0 2.45em;
+    padding: 15px 2.1em 0 2.45em;
 }
 #block35{
     padding: 15px 3.078em 0 3.078em;
