@@ -245,7 +245,7 @@ header{
     background: linear-gradient(#17171782, #444444b5);
     padding: 1em .7em;
 }
-.splide__slide img{ height: 260px;}
+.splide__slide img{ height: 20vh;}
 .splide{padding: 8em 0;z-index: 0;}
 .splide__slide p:nth-child(3){font-size: 32px;color: #7EAFD3;}
 .splide__slide p:nth-child(2){font-size: 28px;}
