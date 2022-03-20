@@ -80,6 +80,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .first-section div{
@@ -112,6 +113,8 @@ header{
     background-color: #463f4b;
     justify-content: center;
     padding: 8.25em 5.5em;
+
+
 }
 
 .article-section{
@@ -174,11 +177,11 @@ header{
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     padding-bottom: 0.5em;
 }
 
-.third-section .group{
+.third-section .group3{
     display: flex;
     margin-top: 5em;
     justify-content: space-between;
@@ -231,6 +234,9 @@ header{
   height: 2px;
   background: radial-gradient(#e8d0a5, #a5bce7);
   animation: lineH 2s 1s  infinite alternate;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 @keyframes lineH{
     0%{
@@ -423,11 +429,11 @@ margin-right: 1.5em;
 
   }
 .main_background {
-  position: absolute;
-  height: 4050px;
+
+
   width: 100%;
   background: linear-gradient(90deg, #776664, #706478);
-  z-index: -2;
+  z-index: -5;
 }
 
 
@@ -477,4 +483,13 @@ footer{
     flex-direction: column;
     align-items: center;
     background: linear-gradient(90deg, #776664, #706478);
+}
+
+.sixth-section {
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5em;
+margin-bottom: 5em;
+
 }

@@ -5,7 +5,13 @@
     align-items: center;
     padding: 2em;
 }
+.textfaq {
 
+  font-family: 'Viga', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
 .title {
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -29,6 +35,7 @@
 .question-div {
     padding-bottom: 19px;
     transition: color 0.1s linear;
+    color: #FFEBCD
 }
 
 .question-div:hover {
@@ -38,6 +45,7 @@
 
 .question {
     position: relative;
+    font-size: 32px;
 }
 
 .question::after {
@@ -62,14 +70,16 @@
 .answer {
     display: none;
     width: 100%;
-    color: #787887;
+    color: #FFFFFF;
     line-height: 1.3em;
+    font-size: 24px;
 }
 
 .display-answer {
     display: flex;
     align-items: center;
     animation: 0.4s linear forwards displayAnswer;
+    margin: auto;
 }
 
 .remove-answer {
@@ -136,7 +146,7 @@
         background: no-repeat url("images/illustration-box-desktop.svg");
     }
     .faq {
-        width: 350px;
+        width: 1000px;
         display: flex;
         flex-direction: column;
         align-items: unset;
