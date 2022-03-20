@@ -6,11 +6,9 @@
     padding: 2em;
 }
 .textfaq {
-
   font-family: 'Viga', sans-serif;
   font-weight: 100;
   font-style: normal;
-
 }
 .title {
     text-transform: uppercase;
@@ -52,10 +50,10 @@
     content: '';
     position: absolute;
     top: calc(50% - 3.5px);
-    right: 0;
+    right: 10px;
     width: 10px;
     height: 7px;
-    background: no-repeat url(images/icon-arrow-down.svg);
+    background: no-repeat url(image/icon-arrow-down.svg);
     transition: 0.3s linear;
 }
 
@@ -121,30 +119,6 @@
         height: 509px;
         width: 391px;
     }
-    .shadow {
-        position: absolute;
-        top: calc(50% - calc( calc(944px + 150px) / 2));
-        left: -575px;
-        height: 944px;
-        width: 965px;
-        background: no-repeat url("images/bg-pattern-desktop.svg");
-    }
-    .women {
-        position: absolute;
-        top: calc(50% - calc(359px / 2));
-        left: -84px;
-        height: 359px;
-        width: 473px;
-        background: no-repeat url("images/illustration-woman-online-desktop.svg");
-    }
-    .box {
-        position: absolute;
-        top: calc(50% - calc( 106px / 2));
-        left: calc(-191px / 2);
-        height: 184px;
-        width: 191px;
-        background: no-repeat url("images/illustration-box-desktop.svg");
-    }
     .faq {
         width: 1000px;
         display: flex;
@@ -159,7 +133,7 @@
 
 @keyframes displayAnswer {
     0% {
-        height: 0px;
+        height: 0;
         margin-bottom: 19px;
         opacity: 0;
     }
@@ -187,9 +161,8 @@
         opacity: 0;
     }
     100% {
-        height: 0px;
-        margin: 0;
-        margin-bottom: 19px;
+        height: 0;
+        margin: 0 0 19px 0;
         opacity: 0;
     }
 }
