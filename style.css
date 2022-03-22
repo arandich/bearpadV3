@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +8,7 @@
 }
 
 .text {
-    font-family: 'Viga', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-style: normal;
     color: #FFFFFF;
@@ -57,7 +58,6 @@ section h2{
 .menu-btn{
     display: block;
     text-align: center;
-    width: 200px;
     height: 40px;
     margin: 0 10px;
 }
@@ -245,7 +245,7 @@ header{
     background: linear-gradient(#17171782, #444444b5);
     padding: 1em .7em;
 }
-.splide__slide img{ height: 20vh;}
+.splide__slide img{max-width: 90%;max-height: 50%;}
 .splide{padding: 8em 0;z-index: 0;}
 .splide__slide p:nth-child(3){font-size: 32px;color: #7EAFD3;}
 .splide__slide p:nth-child(2){font-size: 28px;}
