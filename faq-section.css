@@ -5,8 +5,8 @@
     align-items: center;
     padding: 2em;
 }
-.textfaq {
-  font-family: 'Viga', sans-serif;
+.textfaq{
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-style: normal;
 }
@@ -33,7 +33,7 @@
 .question-div {
     padding-bottom: 19px;
     transition: color 0.1s linear;
-    color: #FFEBCD
+    color: #FFEBCD;
 }
 
 .question-div:hover {
@@ -58,7 +58,7 @@
 }
 
 .selected {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .selected::after {
