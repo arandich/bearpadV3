@@ -20,6 +20,12 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+.video {
+
+  height: 100vh;
+  
+}
+
   .ic{
     max-width: 5em;
     max-height: 5em;
@@ -63,6 +69,9 @@ margin-top: 0;
 .content-block-fourth {
 padding:2em 0.5em 2em 0.5em;
 margin-bottom: 2em;
+}
+.faq {
+width: 600px;
 }
 
 }
