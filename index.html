@@ -27,11 +27,10 @@
     </header>
     <main>
         <section class="first-section flex1">
-  <video src="image/background2.mp4" autoplay loop muted class="video">
-    </video>
+           <canvas id="nokey" width="800" height="800"></canvas>
           <div class = "text fw500">BEARPAD</div>
           <h1 class="text slogan">Gamification the presale experience to deliver maximum joy and value to investors and developers.</h1>
-          <button class="btn-first-section text button_style ">DISCOVER</button>
+          <button class="btn-first-section text button_style "><a class = "text" href="#About">DISCOVER</a></button>
         </section>
         <div class="main_background">
             <div class="divider" id = "About"></div>
@@ -222,38 +221,48 @@
                         <ul class="splide__list">
                             <li class="splide__slide">
                                 <img src="image/team/photo_2022-01-03_02-09-44.jpg" style = "max-height: 40%;" alt="">
-                                <p class="text fw300">Anton Zhdanov</p>
-                                <p class="text fw500">CEO</p>
-                                <p class="text">CEO 4 years of experience in cryptocurrency industry</p>
-                                <p class="text">Involved in all BearPad processes.</p>
+                                <div>
+                                    <p class="text fw300">Anton Zhdanov</p>
+                                    <p class="text fw500">CEO</p>
+                                    <p class="text">CEO 4 years of experience in cryptocurrency industry</p>
+                                    <p class="text">Involved in all BearPad processes.</p>
+                                </div>
                             </li>
                             <li class="splide__slide">
                                 <img src="image/team/photo_2022-01-03_15-57-54.jpg" alt="">
-                                <p class="text fw300">Alex Yudin</p>
-                                <p class="text fw500">COO</p>
-                                <p class="text">12 years of experience as creative director</p>
-                                <p class="text">Responsible for strategic planning</p>
+                                <div>
+                                    <p class="text fw300">Alex Yudin</p>
+                                    <p class="text fw500">COO</p>
+                                    <p class="text">12 years of experience as creative director</p>
+                                    <p class="text">Responsible for strategic planning</p>
+                                </div>
                             </li>
                             <li class="splide__slide">
                                 <img src="image/team/photo_2022-01-03_15-59-00.jpg" alt="">
-                                <p class="text fw300">Anastasia Romanova</p>
-                                <p class="text fw500">Designer</p>
-                                <p class="text">Long and rich experience as a designer</p>
-                                <p class="text">Smart and responsible</p>
+                                <div>
+                                    <p class="text fw300">Anastasia Romanova</p>
+                                    <p class="text fw500">Designer</p>
+                                    <p class="text">Long and rich experience as a designer</p>
+                                    <p class="text">Smart and responsible</p>
+                                </div>
                             </li>
                             <li class="splide__slide">
                                 <img src="image/team/photo_2022-03-20_16-52-51.jpg" alt="">
-                                <p class="text fw300">jeteex</p>
-                                <p class="text fw500">Developer</p>
-                                <p class="text">Full-stack developer with long experience</p>
-                                <p class="text">Funny and clever</p>
+                                <div>
+                                    <p class="text fw300">jeteex</p>
+                                    <p class="text fw500">Developer</p>
+                                    <p class="text">Full-stack developer with long experience</p>
+                                    <p class="text">Funny and clever</p>
+                                </div>
                             </li>
                             <li class="splide__slide">
                                 <img src="image/team/photo_2022-01-03_15-58-25.jpg" alt="">
-                                <p class="text fw300">Vyacheslav Shwed</p>
-                                <p class="text fw500">CMO</p>
-                                <p class="text">11 years of experience in the area of marketing</p>
-                                <p class="text">Makes the BearPad popular</p>
+                                <div>
+                                    <p class="text fw300">Vyacheslav Shwed</p>
+                                    <p class="text fw500">CMO</p>
+                                    <p class="text">11 years of experience in the area of marketing</p>
+                                    <p class="text">Makes the BearPad popular</p>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -361,5 +370,6 @@
         new WOW().init();
     </script>
     <script src = "js/faq-section.js?ver=1.2"></script>
+    <script src = "js/particles.js"></script>
 </body>
 </html>
