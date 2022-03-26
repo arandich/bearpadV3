@@ -70,8 +70,21 @@ section h2{
 }
 
 .menu-btn a:hover{color: #7EAFD3;}
-.logo{width: 50px;height: 50px;}
-
+.logo{width: 50px;height: 50px; opacity: 60%;}
+.menudivider2 {
+position: relative;
+z-index: 100;
+text-align: center;
+justify-content: center;
+align-items: center;
+left: 50%;
+transform: translate(-50%);
+width: 25%;
+height: 2px;
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+animation: lineH 3s 2s  infinite alternate;
+opacity: 30%;
+}
 .menu{
     justify-content: center;
 
@@ -158,11 +171,12 @@ header{
     z-index: 1;
     padding-bottom: 0.5em;
 }
+
 .adapttext {
   text-align: center;
   max-width: 80%;
 }
-.third-section {display: flex;margin-top: 5em;justify-content: space-between;}
+.third-section {display: flex;margin-top: 3em;justify-content: space-between;}
 .third-section p{font-size: 22px;}
 .content-block-third{display: flex;padding: 3em;}
 .text-section{padding: 0.5em 2em;}
@@ -194,7 +208,7 @@ header{
 .divider2 {
   width: 40%;
   height: 2px;
-  background: radial-gradient(#e8d0a5, #a5bce7);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   animation: lineH 2s 1s  infinite alternate;
   align-items: center;
   text-align: center;
@@ -296,8 +310,8 @@ max-height: 7em;
 .splide__slide img{max-width: 90%;max-height: 50%;padding: 0 0 1em 0;}
 .splide__slide div{text-align: center;}
 .splide{padding: 8em 0;z-index: 0;}
-.splide__slide p:nth-child(3){font-size: 32px;color: #7EAFD3;}
-.splide__slide p:nth-child(2){font-size: 28px;text-align: center;}
+.splide__slide p:nth-child(3){font-size: 24px;color: #7EAFD3;}
+.splide__slide p:nth-child(2){font-size: 36px;text-align: center;}
 .splide__slide p:nth-child(4), .splide__slide p:nth-child(5){text-align: center;padding: 0.5em 0.5em 0.3em 1em;}
 .btn-default {border-width: 1px;}
 .main_background {width: 100%;
@@ -354,4 +368,7 @@ footer{background-color: #463f4b;}
   text-align: center;
   max-width: 80%;
   margin-bottom: 5em;
+}
+.third-section div {
+  margin-bottom: 0;
 }

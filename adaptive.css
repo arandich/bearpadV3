@@ -18,9 +18,16 @@ body {
  width:100%;
  order:0;
 }
-
+.adapt_text_team {
+  font-size: 30px;
+}
+.adapt_text_team1 {
+  font-size: 24px;
+}
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .adapt_text_team1 {
+    font-size: 36px;
+  }
   .ic{
     max-width: 5em;
     max-height: 5em;
