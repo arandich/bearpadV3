@@ -18,11 +18,36 @@ a{
 }
 
 canvas{
-    background-color: #716474;
+  background-image: linear-gradient(
+  50deg,
+  hsl(245deg 14% 30%) 0%,
+  hsl(247deg 15% 31%) 13%,
+  hsl(249deg 16% 31%) 19%,
+  hsl(251deg 17% 32%) 24%,
+  hsl(252deg 18% 32%) 28%,
+  hsl(254deg 18% 32%) 32%,
+  hsl(256deg 19% 33%) 35%,
+  hsl(258deg 20% 33%) 39%,
+  hsl(260deg 21% 34%) 42%,
+  hsl(262deg 21% 34%) 45%,
+  hsl(264deg 22% 34%) 48%,
+  hsl(265deg 23% 35%) 52%,
+  hsl(267deg 23% 35%) 55%,
+  hsl(269deg 24% 35%) 58%,
+  hsl(271deg 25% 36%) 61%,
+  hsl(273deg 25% 36%) 65%,
+  hsl(275deg 26% 36%) 68%,
+  hsl(277deg 27% 36%) 72%,
+  hsl(280deg 27% 37%) 76%,
+  hsl(282deg 28% 37%) 81%,
+  hsl(284deg 28% 37%) 87%,
+  hsl(286deg 29% 37%) 100%
+);
     position: absolute;
     top: 0;
     left:0;
     height: 100vh;
+    width: 100%;
 }
 
 section{
@@ -75,20 +100,9 @@ header{
     position: relative;
     top: 0;
 }
-.first-section{width: 100%;height: 100vh;}
+.first-section{height: 100vh;max-width: 100%;}
 .first-section div{font-size: 48px;color: #7EAFD3;z-index: 1;}
 .first-section span{font-size: 32px;}
-
-
-.video{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -100;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-}
 
 
 .btn-first-section{
@@ -105,7 +119,7 @@ header{
     z-index: 999;
 }
 .btn-first-section:hover{background-color: #61859b;}
-.second-section{background-color: #463f4b;padding: 8.25em 5.5em;}
+.second-section{background-color: #363546;padding: 8.25em 5.5em;}
 .article-section{display: flex;justify-content: center;max-width: 1280px;}
 
 .article-section div{
@@ -286,9 +300,35 @@ max-height: 7em;
 .splide__slide p:nth-child(2){font-size: 28px;text-align: center;}
 .splide__slide p:nth-child(4), .splide__slide p:nth-child(5){text-align: center;padding: 0.5em 0.5em 0.3em 1em;}
 .btn-default {border-width: 1px;}
-.main_background {width: 100%;background: linear-gradient(90deg, #776664, #706478);z-index: -5;}
+.main_background {width: 100%;
+  background-image: linear-gradient(
+    235deg,
+    hsl(245deg 14% 30%) 0%,
+    hsl(247deg 15% 30%) 5%,
+    hsl(249deg 15% 31%) 10%,
+    hsl(251deg 16% 31%) 14%,
+    hsl(253deg 17% 31%) 19%,
+    hsl(254deg 17% 31%) 24%,
+    hsl(256deg 18% 31%) 29%,
+    hsl(258deg 18% 31%) 33%,
+    hsl(260deg 19% 32%) 38%,
+    hsl(262deg 19% 32%) 43%,
+    hsl(264deg 20% 32%) 48%,
+    hsl(266deg 20% 32%) 52%,
+    hsl(268deg 21% 32%) 57%,
+    hsl(270deg 21% 32%) 62%,
+    hsl(271deg 22% 32%) 67%,
+    hsl(273deg 22% 32%) 71%,
+    hsl(275deg 23% 32%) 76%,
+    hsl(277deg 23% 32%) 81%,
+    hsl(280deg 24% 33%) 86%,
+    hsl(282deg 24% 33%) 90%,
+    hsl(284deg 25% 33%) 95%,
+    hsl(286deg 25% 33%) 100%
+  );
+z-index: -5;}
 
-.additional-section{background-color: #463f4b;}
+.additional-section{background-color: #363546;}
 .group-chains{display: flex;}
 .group-chains div{margin: 1.5em 1.5em 2.3em 1.5em;}
 .group-chains div img{width: 60px;height: 60px;}

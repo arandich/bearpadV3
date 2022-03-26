@@ -20,11 +20,6 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-.video {
-
-  height: 100vh;
-  
-}
 
   .ic{
     max-width: 5em;
