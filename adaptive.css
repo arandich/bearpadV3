@@ -24,6 +24,89 @@ body {
 .adapt_text_team1 {
   font-size: 24px;
 }
+
+
+@media (max-width: 1239px) {
+
+  .third-section .group3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .group3 .additional-group:nth-child(2){
+    display: grid;
+    grid-template-rows: 385px 1fr;
+  }
+  .group-fourth {
+    max-width: 500px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: scale(1.1);
+  }
+  .content-block-fourth {
+  padding:2em 0.5em 2em 0.5em;
+  margin-bottom: 2em;
+  }
+
+  .content-block-third{
+    padding: 4em 1em 2em 1.5em;
+  }
+
+  .splide__slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em 5em;
+  }
+  .splide__slide img{
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 1275px) {
+  .road-group:before {
+      width: 51%;
+      left: 102%;
+  }
+  .road-group-right:before {
+      right: 102%;
+      left: auto;
+  }
+  .road-group > div:before{
+    width: 55%;
+    left: 102%;
+  }
+  .road-group-right > div:before{
+    right: 102%;
+    left: auto;
+  }
+}
+@media (max-width: 991px){
+.road-group {
+    width: 100%;
+}
+.road-group:before {
+    display: none;
+}
+.road-group-right:before {
+    display: none;
+}
+.road-group > div:before{
+  display: none;
+}
+.road-group-right > div:before{
+  display: none;
+}
+.vertical-line {
+  display: none;
+}
+.adaptcolumn {
+  display: none;
+}
+.block-column {
+  margin-bottom: 50px;
+}
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .adapt_text_team1 {
     font-size: 36px;
@@ -78,38 +161,4 @@ width: 600px;
 
 }
 
-@media (max-width: 1239px) {
-  .third-section .group3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .group3 .additional-group:nth-child(2){
-    display: grid;
-    grid-template-rows: 385px 1fr;
-  }
-  .group-fourth {
-    max-width: 500px;
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    transform: scale(1.1);
-  }
-  .content-block-fourth {
-  padding:2em 0.5em 2em 0.5em;
-  margin-bottom: 2em;
-  }
-
-  .content-block-third{
-    padding: 4em 1em 2em 1.5em;
-  }
-
-  .splide__slide{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1em 5em;
-  }
-  .splide__slide img{
-    max-height: 100%;
-  }
 }

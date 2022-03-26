@@ -6,11 +6,18 @@
     scroll-behavior: smooth;
 
 }
+*,*:before, *:after {
+  -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
 
 .text {font-family: 'Roboto', sans-serif;font-weight: 100;font-style: normal;color: #FFF;}
 .fw300{font-weight: 300;}
 .fw500{font-weight: 500;}
-
+ul {
+  list-style: none;
+}
 a{
     text-decoration: none;
     color: #EAEAEA;
@@ -359,9 +366,13 @@ footer{background-color: #463f4b;}
 .foot-group-links a img:hover{filter: invert(73%) sepia(27%) saturate(551%) hue-rotate(165deg) brightness(90%) contrast(83%);}
 
 .sixth-section {
-    text-align: center;
+
     margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 5em
+    box-sizing: border-box;
+    max-width: 100%;
+
+
 }
 
 .adapttext {
@@ -371,4 +382,164 @@ footer{background-color: #463f4b;}
 }
 .third-section div {
   margin-bottom: 0;
+}
+
+.block-group {
+  width: 1250px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.block-group-container {
+  position: relative;
+}
+
+.block-colums {
+  margin-bottom: 0;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.block-column {
+  flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.road-group {
+      width: 436px;
+      max-width: 100%;
+      border-radius: 20px;
+      border: 5px solid #ac48fb;
+      padding: 40px;
+      position: relative;
+}
+div[name="road-group-js"] {
+  background-color: none;
+}
+.road-group:before {
+    content: '';
+    width: 52%;
+    height: 15px;
+    border-bottom: 1px solid #ac48fb;
+    top: 50%;
+    display: block;
+    left: 407px;
+    position: absolute;
+}
+
+.road-group > div:before {
+    content: '';
+    width: 50%;
+    height: 50px;
+    background: url(image/line-round.png) no-repeat right 0px;
+    background-size: 29px 29px;
+    top: 50%;
+    display: block;
+    left: 432px;
+    position: absolute;
+    z-index: 1;
+}
+.road-group:after {
+    content: '';
+    width: 57px;
+    height: 57px;
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    background: url(image/inprogress.png) no-repeat center;
+}
+.block-group-inner p {
+  margin-bottom: 20px;
+}
+.number-group {
+    font-size: 28px;
+    font-family: 'Roboto';
+    width: 80px;
+    height: 80px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(to right, #602afd 0%,#a454e7 100%);
+    border: 16px solid #0d0720;
+    position: absolute;
+    top: -50px;
+    left: 30px;
+}
+.stage {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    line-height: 30px;
+}
+.stage span {
+    font-size: 14px;
+    color: #fff !important;
+    padding: 0 10px;
+    background: #201938;
+    display: inline-block;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.block-group-inner ul li {
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  color: #FFFFFF;
+  font-weight: 300;
+}
+.road-group li:before {
+    content: '';
+    background: #ac48fb;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+.road-group-right:before {
+    left: auto;
+    right: 407px;
+}
+.road-group-right > div:before {
+    left: auto;
+    background: url(image/line-round.png) no-repeat left 0px;
+    right: 430px;
+}
+.block-spacer {
+  clear: both;
+}
+.vertical-line {
+  position: absolute;
+    top: 0;
+    height: 100% !important;
+    width: 1px;
+    background: #ac48fb;
+    left: 50%;
+}
+.vertical-line:before {
+    content: '';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    background: url(image/line-round.png) no-repeat center;
+    display: block;
+    top: -15px;
+    left: -15px;
+}
+.vertical-line:after {
+    content: '';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    background: url(image/line-round.png) no-repeat center;
+    display: block;
+    bottom: -15px;
+    left: -15px;
 }
