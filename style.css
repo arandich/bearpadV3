@@ -368,7 +368,7 @@ footer{background-color: #463f4b;}
 .sixth-section {
 
     margin-top: 5em;
-    margin-bottom: 5em
+    margin-bottom: 5em;
     box-sizing: border-box;
     max-width: 100%;
 
@@ -408,15 +408,15 @@ footer{background-color: #463f4b;}
 }
 
 .road-group {
-      width: 436px;
-      max-width: 100%;
-      border-radius: 20px;
-      border: 5px solid #ac48fb;
-      padding: 40px;
-      position: relative;
+    width: 436px;
+    max-width: 100%;
+    border-radius: 20px;
+    border: 5px solid #ac48fb;
+    padding: 40px;
+    position: relative;
 }
 div[name="road-group-js"] {
-  background-color: none;
+  background-color: transparent;
 }
 .road-group:before {
     content: '';
