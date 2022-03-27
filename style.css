@@ -62,7 +62,7 @@ section h2{font-size: 28px;padding: 1em 0 0.3em 0;}
     align-items: center;
     left: 50%;
     transform: translate(-50%);
-    width: 25%;
+    max-width: 25%;
     height: 2px;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     animation: lineH 3s 2s  infinite alternate;
@@ -296,32 +296,12 @@ max-height: 7em;
 .splide__slide p:nth-child(4), .splide__slide p:nth-child(5){text-align: center;padding: 0.5em 0.5em 0.3em 1em;}
 .btn-default {border-width: 1px;}
 .main_background {width: 100%;
-  background-image: linear-gradient(
-    235deg,
-    hsl(245deg 14% 30%) 0%,
-    hsl(247deg 15% 30%) 5%,
-    hsl(249deg 15% 31%) 10%,
-    hsl(251deg 16% 31%) 14%,
-    hsl(253deg 17% 31%) 19%,
-    hsl(254deg 17% 31%) 24%,
-    hsl(256deg 18% 31%) 29%,
-    hsl(258deg 18% 31%) 33%,
-    hsl(260deg 19% 32%) 38%,
-    hsl(262deg 19% 32%) 43%,
-    hsl(264deg 20% 32%) 48%,
-    hsl(266deg 20% 32%) 52%,
-    hsl(268deg 21% 32%) 57%,
-    hsl(270deg 21% 32%) 62%,
-    hsl(271deg 22% 32%) 67%,
-    hsl(273deg 22% 32%) 71%,
-    hsl(275deg 23% 32%) 76%,
-    hsl(277deg 23% 32%) 81%,
-    hsl(280deg 24% 33%) 86%,
-    hsl(282deg 24% 33%) 90%,
-    hsl(284deg 25% 33%) 95%,
-    hsl(286deg 25% 33%) 100%
-  );
-    z-index: -5;}
+  background: url(image/background.png);
+    z-index: -5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 
 .additional-section{background-color: #363546;}
 .group-chains{display: flex;}
