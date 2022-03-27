@@ -411,18 +411,18 @@ footer{background-color: #463f4b;}
     width: 436px;
     max-width: 100%;
     border-radius: 20px;
-    border: 5px solid #ac48fb;
+    border: 5px solid #A762CB;
     padding: 40px;
     position: relative;
+
 }
-div[name="road-group-js"] {
-  background-color: transparent;
-}
+
+
 .road-group:before {
     content: '';
     width: 52%;
     height: 15px;
-    border-bottom: 1px solid #ac48fb;
+    border-bottom: 1px solid #A762CB;
     top: 50%;
     display: block;
     left: 407px;
@@ -462,17 +462,20 @@ div[name="road-group-js"] {
     line-height: 48px;
     text-align: center;
     border-radius: 50%;
-    background: linear-gradient(to right, #602afd 0%,#a454e7 100%);
-    border: 16px solid #0d0720;
+    background: linear-gradient(135deg,
+  #a762cb 0%, #cb62bb 100%);
+    border: 16px solid #574667;
     position: absolute;
     top: -50px;
     left: 30px;
+    color: #FFFFFF;
 }
 .stage {
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 500;
     font-family: 'Roboto';
     line-height: 30px;
+    color: #c79bde;
 }
 .stage span {
     font-size: 14px;
@@ -494,7 +497,7 @@ div[name="road-group-js"] {
 }
 .road-group li:before {
     content: '';
-    background: #ac48fb;
+    background: #62bbcb;
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -520,7 +523,7 @@ div[name="road-group-js"] {
     top: 0;
     height: 100% !important;
     width: 1px;
-    background: #ac48fb;
+    background: #A762CB;
     left: 50%;
 }
 .vertical-line:before {
@@ -542,4 +545,22 @@ div[name="road-group-js"] {
     display: block;
     bottom: -15px;
     left: -15px;
+}
+.road-group:hover {
+  background: linear-gradient(135deg,
+#a762cb 0%, #cb62bb 100%);
+
+}
+.road-group:hover .block-group-inner .stage {
+  color: #FFFFFF;
+
+}
+.road-group:hover .block-group-inner ul li {
+  font-weight: 500;
+  color: #09040b;
+}
+.roadmap-text {
+  margin-bottom: 100px;
+  font-size:  60px;
+  font-weight: 100;
 }

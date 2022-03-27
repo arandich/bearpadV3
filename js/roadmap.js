@@ -1,3 +1,3 @@
 function doWithThisElement(element) {
-  element.style.background = "linear-gradient(to right, #602afd 0%,#a454e7 100%)";
+  element.style.background = "linear-gradient(45deg, #A762CB 0%, #2B6782 100%)";
 }
