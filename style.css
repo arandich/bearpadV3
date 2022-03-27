@@ -494,6 +494,7 @@ footer{background-color: #463f4b;}
   font-family: "Roboto";
   color: #FFFFFF;
   font-weight: 300;
+  font-size: 24px;
 }
 .road-group li:before {
     content: '';
