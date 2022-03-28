@@ -99,8 +99,24 @@ body {
   }
 }
 @media (max-width: 991px){
+  .fifth-section p {
+    font-size: 20px;
+  }
+  .fourth-section .text-group  div p {
+    font-size: 20px;
+  }
+  .upper-text-group div p {
+    font-size: 20px;
+  }
+  .content-block-fourth p {
+      font-size: 20px;
+
+  }
+  .article-section div p {
+    font-size: 23px;
+}
 .menudivider2 {
-  max-width: 60%;
+  max-width: 48%;
 }
 .road-group {
     width: 90%;
@@ -128,6 +144,7 @@ body {
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+
   .adapt_text_team1 {
     font-size: 36px;
   }
@@ -159,7 +176,7 @@ body {
   }
   .splide__slide p:nth-child(3){font-size: 24px;}
   .splide__slide p:nth-child(2){font-size: 18px;}
-  .splide__slide p:nth-child(4), .splide__slide p:nth-child(5){font-size: 14px;}
+  .splide__slide p:nth-child(4), .splide__slide p:nth-child(5){font-size: 20px;}
 .third-section .group3 {
 margin-top: 0;
 }
@@ -175,4 +192,9 @@ margin-bottom: 2em;
 width: 600px;
 }
 
+}
+@media (max-width: 490px)  {
+  .main_background {
+    background: url(image/background1.png);
+  }
 }

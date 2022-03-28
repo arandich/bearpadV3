@@ -195,6 +195,7 @@ header{
   text-align: center;
   justify-content: center;
 }
+
 @keyframes lineH{
     0%{
 
@@ -295,15 +296,15 @@ max-height: 7em;
 .splide__slide p:nth-child(2){font-size: 36px;text-align: center;}
 .splide__slide p:nth-child(4), .splide__slide p:nth-child(5){text-align: center;padding: 0.5em 0.5em 0.3em 1em;}
 .btn-default {border-width: 1px;}
-.main_background {width: 100%;
+.main_background {
   background: url(image/background.png);
     z-index: -5;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
-
-.additional-section{background-color: #363546;}
+    background-size: cover;
+    height: 100%;
+  }
+.additional-section{background-color:0;}
 .group-chains{display: flex;}
 .group-chains div{margin: 1.5em 1.5em 2.3em 1.5em;}
 .group-chains div img{width: 60px;height: 60px;}
@@ -316,7 +317,7 @@ footer{background-color: #463f4b;}
 .foot-group-links a img:hover{filter: invert(73%) sepia(27%) saturate(551%) hue-rotate(165deg) brightness(90%) contrast(83%);}
 
 .sixth-section {margin-top: 5em;margin-bottom: 5em;box-sizing: border-box;max-width: 100%;}
-.adapttext {text-align: center;max-width: 80%;margin-bottom: 5em;}
+.adapttext {text-align: center;max-width: 80%;margin-bottom: 5em; margin-top: 5em;}
 .third-section div {margin-bottom: 0;}
 .block-group {width: 1250px;max-width: 100%;margin: 0 auto;}
 .block-group-container {position: relative;}
