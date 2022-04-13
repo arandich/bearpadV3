@@ -453,3 +453,11 @@ footer{background-color: #463f4b;}
 .road-group:hover .block-group-inner .stage {color: #FFFFFF;}
 .road-group:hover .block-group-inner ul li {color: #09040b;}
 .roadmap-text {margin-bottom: 2em;font-size: 4em}
+
+.partner-image {
+  height: 90px;
+  width: 90px;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-right: 2em;
+}
