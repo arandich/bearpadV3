@@ -460,4 +460,10 @@ footer{background-color: #463f4b;}
   padding-bottom: 2em;
   padding-top: 1em;
   padding-right: 2em;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.partner-image:hover {
+    filter: brightness(100%);
 }
